@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4D93FD;
+    width: 100%;
+    height: 80px;
+}
+
+.logo{
+    width: 180px;
+    margin-top: 40px;    
+}
+
+nav{
+ display: flex;
+ gap: 20px;   
+}
+
+nav a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+.cadastrar{
+    background-color: #38B6FF;
+    border-radius: 20px 20px;
+    color: #FFFFFF;
+    width: 146px;
+    height: 26px;
+    border: transparent;
+}
+
+.Login{
+    background-color: transparent;
+    border: transparent;
+    color: #FFFFFF;
+}
+
+main{
+    background-image:url(/src/img/porquinho.png);
+    width: 1900;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+}
+
+main :first-child{
+    font-size: 46px;
+}
+
+main :nth-child(2){
+    width: 380px;
+    height: 4px;
+    background-color: #1A92D8;
+}
+
+main :last-child{
+    font-size: 36px;
+    width: 345px;
+}
+
+.sobre-nos{
+    background-color: #C7E7F7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+}
+.sobre-nos h1{
+    font-size: 46px;
+    color: #FFFFFF;
+    
+}
+.all-cards{
+    display: flex;
+    gap: 40px;
+}
+.card-content{
+    width: 402px;
+    height: 515px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFFFFF;
+    background-color: #4D93FD;
+    border-radius: 20px 20px;
+}
+.card-text{
+    width: 352px;
+}
+.noticias{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+   align-items: center;
+}
+.notice{
+    display: flex;
+
+}
+.dollar{
+    width: 450px;
+    height: 280px;
+}
+.notice-text{
+    font-size: 48px;
+    width: 650px;
+}
+
+.link-noticia{
+    display: flex;
+    align-self: flex-end;
+}
+
+.MrBeast{
+    width: 450px;
+    height: 280px;
+}
